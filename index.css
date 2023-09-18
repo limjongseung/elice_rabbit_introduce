@@ -33,12 +33,10 @@ body {
     width: 320px;
     height: 320px;
     overflow: hidden;
-  }
-  .profile img:hover {
-    width: 320px;
-    height: 320px;
-    transform: scale(1.2);
     transition: transform 1s;
+  }
+  .profile:hover{
+    transform: rotate(360deg);
   }
   
   main {
